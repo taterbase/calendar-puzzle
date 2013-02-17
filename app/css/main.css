@@ -1,0 +1,103 @@
+/* ==========================================================================
+   General
+   ========================================================================== */
+
+a {
+  cursor: pointer;
+  color: #3b5998;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+
+body {
+  font-size: 11px;
+  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+  color: #333;
+  line-height: 1.28;
+  text-align: left;
+  direction: ltr;
+}
+
+/* ==========================================================================
+   Calendar
+   ========================================================================== */
+
+.calendar {
+  width: 690px;
+}
+
+.calendar .calendar-time-column {
+  width: 59px;
+  float: left;
+  line-height: 1;
+}
+
+.calendar .calendar-time {
+  margin-bottom: 19px;
+}
+
+.calendar .calendar-time-whole {
+  font-size: 13px;
+  font-weight: bold;
+  color: #7f7f7f;
+  text-align: right;
+}
+
+.calendar .calendar-time-whole span {
+  padding-left: 6px;
+  font-weight: normal;
+  color: #a7a7a7;
+  font-size: 9px;
+}
+
+.calendar .calendar-time-half {
+  font-size: 9px;
+  color: #a7a7a7;
+  text-align: right;
+}
+
+.calendar .calendar-event-container {
+  position: relative;
+  width: 620px;
+  height: 720px;
+  margin: 7px 0 0 10px;
+  float: left;
+  background-color: #ececec;
+  border-left: 1px solid #d5d5d5;
+}
+
+.calendar .calendar-event {
+  position: absolute;
+  background-color: #4b6ea8;
+}
+
+.calendar .calendar-event-wrapper {
+  margin-left: 4px;
+  background-color: #ffffff;
+  border-top: 1px solid #d5d5d5;
+  border-right: 1px solid #d5d5d5;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.calendar .calendar-event-content {
+  padding: 4px 6px 4px 5px;
+}
+
+.calendar a.calendar-event-title {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  color: #4b6ea8;
+}
+
+.calendar .calendar-event-location {
+  font-size: 9px;
+  color: #a0a0a0;
+}
