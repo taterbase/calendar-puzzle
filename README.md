@@ -164,7 +164,7 @@ The algorithm is robust enough to handle a near infinite number of events. In th
 
 ### Organization and Style
 
-The Calendar a class of the FB module. EventCollection and Event are classes of Calendar properties so that they may be referenced via Calendar.EventCollection and Calendar.Event, respectively. A class for the Event exists beyond what the normal event object so that it will be more robust as features are added to the Calendar and the Event object has more functionality added to it.
+Calendar is a class of the FB module. EventCollection and Event are classes of Calendar properties so that they may be referenced via Calendar.EventCollection and Calendar.Event, respectively. A class for the Event exists beyond what the normal event object so that it will be more robust as features are added to the Calendar and the Event object has more functionality added to it.
 
 Method documentation is in JSDoc style and coding style is roughly that of [idiomatic.js](https://github.com/rwldrn/idiomatic.js).
 
