@@ -172,8 +172,6 @@ Method documentation is in JSDoc style and coding style is roughly that of [idio
 
 The only dependency for the calendar is [Lo-Dash](https://github.com/bestiejs/lodash), an optimized version of the JavaScript utility library, [Underscore.js](https://github.com/documentcloud/underscore). The library is used for simple operations such as mapping and sorting, and nothing significant.
 
-[jQuery](https://github.com/jquery/jquery) is used as a dependency in [Jasmine](https://github.com/pivotal/jasmine) testing, in order to more easily identify the positions and dimensions of rendered events.
-
 ### Testing
 
-Unit tests are used to verify the expected output of the left and top positions as well as widths and heights of the events after processing. A few sample event collections are tested. Unit tests are performed using [Jasmine](https://github.com/pivotal/jasmine) by navigating to `spec/SpecRunner.html` in the browser.
+Unit tests are used to verify the expected output of the left and top positions as well as the widths and heights of the events after processing. A few sample event collections are tested. Unit tests are performed using [Jasmine](https://github.com/pivotal/jasmine) by navigating to `spec/SpecRunner.html` in the browser.
